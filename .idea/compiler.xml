@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Admin" />
+        <module name="canal" />
+        <module name="configTrash" />
+        <module name="EurekaServer" />
+        <module name="productService" />
+        <module name="Zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Admin" target="1.8" />
+      <module name="canal" target="1.8" />
+      <module name="configTrash" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
+      <module name="MavenExamples" target="1.8" />
+      <module name="productService" target="1.8" />
+      <module name="Zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
