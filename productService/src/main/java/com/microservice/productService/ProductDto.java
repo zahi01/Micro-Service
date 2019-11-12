@@ -1,7 +1,11 @@
 package com.microservice.productService;
 
 
-public class ProductDto {
+import java.io.Serializable;
+
+public class ProductDto implements Serializable {
+    private  static  final  long serialVersionUID =  1350092881346723535L;
+
     private String name;
     private Double price;
 

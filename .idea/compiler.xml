@@ -6,22 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Admin" />
-        <module name="canal" />
-        <module name="configTrash" />
-        <module name="EurekaServer" />
         <module name="productService" />
         <module name="Zuul" />
+        <module name="EurekaServer" />
+        <module name="configTrash" />
+        <module name="canal" />
+        <module name="spring-cloud-gateway" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Admin" target="1.8" />
+      <module name="admin" target="1.8" />
       <module name="canal" target="1.8" />
       <module name="configTrash" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="MavenExamples" target="1.8" />
       <module name="productService" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
       <module name="Zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
+      <module name="Zuul" options="-parameters" />
+      <module name="admin" options="-parameters" />
+      <module name="canal" options="-parameters" />
+      <module name="configTrash" options="-parameters" />
+      <module name="productService" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -9,6 +9,8 @@
 	<groupId>com.microservice</groupId>
 	<artifactId>canal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<modelVersion>4.0.0</modelVersion>
+
 	<name>canal</name>
 	<description>Demo project for Spring Boot</description>
 

@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    canal:
+      path: /api/canal/**
+      serviceId: canal
